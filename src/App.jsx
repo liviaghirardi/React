@@ -27,7 +27,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>&copy; 2026 - Aluna: Lívia Ghirardi</p>
+        <p>&copy; 2026 - Aluna: Lívia Ghirardi | Projeto React Concluído com Sucesso</p>
       </footer>
     </div>
   );
