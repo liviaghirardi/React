@@ -5,14 +5,16 @@
   padding: 20px;
   color: #333;
 }
+
 .header {
   text-align: center;
   margin-bottom: 30px;
-  background-color: #00d8ff;
-  color: #222;
+  background-color: #20232a; /* Alterado para tom escuro do React */
+  color: #61dafb; /* Texto na cor oficial do React */
   padding: 20px;
   border-radius: 8px;
 }
+
 .card {
   background: #ffffff;
   padding: 20px;
