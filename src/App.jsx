@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1>Landing Page - React</h1>
+        <h1>Landing Page Interativa - React</h1>
         <p>Projeto Desenvolvido para a Atividade Prática de Frameworks Front-end (SENAI)</p>
       </header>
 
@@ -21,6 +21,7 @@ function App() {
             <li>Arquitetura baseada em Componentes Funcionais</li>
             <li>Gerenciamento de Estado com Hooks</li>
             <li>Ferramenta de Build rápida com Vite</li>
+            <li>Virtual DOM para alta performance</li> <!-- Novo item adicionado -->
           </ul>
         </section>
       </main>
