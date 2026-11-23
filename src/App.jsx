@@ -21,7 +21,7 @@ function App() {
             <li>Arquitetura baseada em Componentes Funcionais</li>
             <li>Gerenciamento de Estado com Hooks</li>
             <li>Ferramenta de Build rápida com Vite</li>
-            <li>Virtual DOM para alta performance</li> <!-- Novo item adicionado -->
+            <li>Virtual DOM para alta performance</li> {/* Novo item adicionado */}
           </ul>
         </section>
       </main>
