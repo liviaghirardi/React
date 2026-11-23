@@ -1,16 +1,32 @@
-# React + Vite
+# Landing Page Interativa - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Projeto desenvolvido para a Atividade Prática de Frameworks Front-end (SENAI).
 
-Currently, two official plugins are available:
+**Aplicação online:** https://react-landing-senai.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologias
 
-## React Compiler
+- [React](https://react.dev) 19
+- [Vite](https://vite.dev) 8
+- [Oxlint](https://oxc.rs) para análise do código
+- [Vercel](https://vercel.com) para deploy e hospedagem
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Como rodar localmente
 
-## Expanding the Oxlint configuration
+É preciso ter o [Node.js](https://nodejs.org) instalado.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install     # instala as dependências
+npm run dev     # inicia o servidor local
+npm run build   # gera a versão de produção na pasta dist
+```
+
+## Deploy
+
+O repositório está conectado à Vercel. Cada `git push` na branch `main` publica uma nova versão automaticamente em https://react-landing-senai.vercel.app.
+
+## Versões
+
+O projeto segue o Versionamento Semântico (MAJOR.MINOR.PATCH). As versões publicadas estão em [Releases](https://github.com/liviaghirardi/React/releases).
+
+- **1.0.0**: primeira versão estável
